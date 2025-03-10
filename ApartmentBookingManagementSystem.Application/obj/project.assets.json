@@ -47,6 +47,19 @@
         "build": {
           "buildTransitive/net6.0/_._": {}
         }
+      },
+      "ApartmentBookingManagementSystem.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1"
+        },
+        "compile": {
+          "bin/placeholder/ApartmentBookingManagementSystem.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ApartmentBookingManagementSystem.Domain.dll": {}
+        }
       }
     }
   },
@@ -113,10 +126,16 @@
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "ApartmentBookingManagementSystem.Domain/1.0.0": {
+      "type": "project",
+      "path": "../ApartmentBookingManagementSystem.Domain/ApartmentBookingManagementSystem.Domain.csproj",
+      "msbuildProject": "../ApartmentBookingManagementSystem.Domain/ApartmentBookingManagementSystem.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "ApartmentBookingManagementSystem.Domain >= 1.0.0",
       "MediatR >= 12.4.1"
     ]
   },
@@ -151,7 +170,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\ApartmentBookingManagementSystem\\ApartmentBookingManagementSystem.Domain\\ApartmentBookingManagementSystem.Domain.csproj": {
+              "projectPath": "C:\\Projects\\ApartmentBookingManagementSystem\\ApartmentBookingManagementSystem.Domain\\ApartmentBookingManagementSystem.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

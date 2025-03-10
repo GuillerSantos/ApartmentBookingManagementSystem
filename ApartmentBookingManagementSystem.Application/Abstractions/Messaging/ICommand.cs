@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using ApartmentBookingManagementSystem.Domain.Abstractions;
+using MediatR;
 
 namespace ApartmentBookingManagementSystem.Application.Abstractions.Messaging;
 
