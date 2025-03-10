@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35825.156 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentBookingManagementSystem.Domain", "ApartmentBookingManagementSystem.Domain\ApartmentBookingManagementSystem.Domain.csproj", "{3AFED7B6-A5F2-4248-94A9-36BBFF800957}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApartmentBookingManagementSystem.Application", "ApartmentBookingManagementSystem.Application\ApartmentBookingManagementSystem.Application.csproj", "{53BA7A7B-5D78-49EC-8AC4-7730B28E400F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3AFED7B6-A5F2-4248-94A9-36BBFF800957}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AFED7B6-A5F2-4248-94A9-36BBFF800957}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AFED7B6-A5F2-4248-94A9-36BBFF800957}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AFED7B6-A5F2-4248-94A9-36BBFF800957}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53BA7A7B-5D78-49EC-8AC4-7730B28E400F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53BA7A7B-5D78-49EC-8AC4-7730B28E400F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53BA7A7B-5D78-49EC-8AC4-7730B28E400F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53BA7A7B-5D78-49EC-8AC4-7730B28E400F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A85C204-89F4-4607-9876-2359D19F2DCB}
+	EndGlobalSection
+EndGlobal
