@@ -8,7 +8,7 @@ public interface ICommandHandler<TCommand> : IRequestHandler<TCommand, Result>
 {
 }
 
-public interface ICommandHandlers<TCommand> : IRequestHandler<TCommand, Result>
-    where TCommand : ICommad
+public interface ICommandHandler<TCommand, TResponse> : IRequestHandler<TCommand, Result<TResponse>>
+    where TCommand : ICommad<TResponse>
 {
 }
